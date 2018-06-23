@@ -79,6 +79,12 @@
    * and/or decrease WATCH_TEMP_INCREASE. WATCH_TEMP_INCREASE should not be set
    * below 2.
    */
+   /**
+      Notes: For Lonnie's machine.
+      Tried raising the temp period to 180 but still got this error when the fan kicked on.
+      Play with this value later once I get a better power supply and a better fan/extruder.
+      Putting back to original value for now.
+   */
   #define WATCH_TEMP_PERIOD 20                // Seconds
   #define WATCH_TEMP_INCREASE 2               // Degrees Celsius
 #endif
