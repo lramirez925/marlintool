@@ -450,8 +450,7 @@
  * details can be tuned in Configuration_adv.h
  */
 
-//Since we are throwing the hot end errors I am turning off the thermal protection.
-//#define THERMAL_PROTECTION_HOTENDS // Enable thermal protection for all extruders
+#define THERMAL_PROTECTION_HOTENDS // Enable thermal protection for all extruders
 #define THERMAL_PROTECTION_BED     // Enable thermal protection for the heated bed
 
 //===========================================================================
