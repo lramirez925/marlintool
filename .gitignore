@@ -1,3 +1,5 @@
 .DS_Store
 /Marlin
+/arduino
+/build
 marlintool.params
